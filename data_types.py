@@ -1,3 +1,4 @@
+# --- STRINGS --- 
 name = "ada lovelace"
 
 print(name.title())
@@ -49,3 +50,15 @@ print(f"{author} once said: \n'{quote.strip()}'")
 
 file_name = "hello_world.py"
 print(f"{file_name.removesuffix(".py")}")
+
+# --- NUMBERS ---
+print(f"4 + 4 = {4 + 4}")
+print(f"14 - 8 = {14 - 8}")
+print(f"7 * 3 = {7 * 3}")
+print(f"3 / 9 = {3 / 9}")
+
+# --- LISTS ---
+names = ["Bon", "Zullu", "Zane", "Mar"]
+print(f"a list: {names}")
+print(f"the first item from the list: {names[0]}")
+print(f"the last item from the list: {names[-1]}")
