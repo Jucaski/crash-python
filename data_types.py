@@ -62,6 +62,8 @@ names = ["Bon", "Zullu", "Zane", "Mar"]
 print(f"a list: {names}")
 print(f"the first item from the list: {names[0]}")
 print(f"the last item from the list: {names[-1]}")
+names.reverse()
+print("the list in reverse order: {names}")
 names.sort()
 print(f"the sort list: {names}")
 names.sort(reverse=True)
